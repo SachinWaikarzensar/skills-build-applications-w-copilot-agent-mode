@@ -1,0 +1,102 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+
+.App-logo {
+  height: 48px;
+  width: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: #22223b;
+  color: #f2e9e4;
+  padding: 2rem 0;
+  border-bottom: 4px solid #4a4e69;
+}
+
+
+.App-link {
+  color: #4a4e69;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.App-link:hover {
+  color: #9a8c98;
+}
+
+/* Navigation menu */
+.navbar {
+  background: linear-gradient(90deg, #4a4e69 0%, #9a8c98 100%);
+  border-bottom: 2px solid #22223b;
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #f2e9e4 !important;
+  font-weight: 600;
+}
+.navbar-brand img {
+  margin-right: 8px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
+  color: #c9ada7 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #4a4e69;
+  font-weight: 700;
+}
+
+/* Tables */
+table {
+  background: #f2e9e4;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(74, 78, 105, 0.08);
+  margin: 1rem auto;
+}
+th {
+  background: #9a8c98;
+  color: #fff;
+}
+td {
+  color: #22223b;
+}
+
+/* Buttons */
+.btn, button {
+  background: #4a4e69;
+  color: #f2e9e4;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1.2rem;
+  margin: 0.2rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.btn:hover, button:hover {
+  background: #9a8c98;
+  color: #22223b;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
